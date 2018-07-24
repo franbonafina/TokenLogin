@@ -1,0 +1,210 @@
+﻿/* Excel style CSS */
+
+body, input
+{
+    font-family: Verdana, Arial;
+    font-size: 8pt;
+}
+
+.ssHeader
+{
+    height: 10px;
+    background: #d9eaff;
+   
+    border: solid 1px buttonshadow;
+    color: #4d4d4d;
+}
+
+.ssHeaderSelected
+{
+    background: #ffda82;
+    color: #4d4d4d;
+    border: solid 1px darkorange;   
+}
+
+.ssRowLabel
+{
+    background: #d9eaff;
+    width: 18px;
+    color: #4d4d4d;
+    font-size: 9pt;
+    
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-right-style: Solid;
+    border-right-color: buttonshadow;
+    border-left-width: 1px;
+    border-left-style: Solid;
+    border-left-color: buttonshadow;
+    border-bottom-width: 1px;
+    border-bottom-color: buttonshadow;
+    border-bottom-style: Solid;
+}
+
+.ssRowLabelSelected
+{
+    background: #ffda82;
+    color: #4d4d4d;
+    border: solid 1px darkorange;
+}
+
+.ssCell
+{
+    height: 9px;
+    width: 60px;    
+    white-space: normal; 
+    overflow: hidden;
+    padding: 0px 1px 0px 1px;
+    
+    border-top-width: 0px;    
+    border-right-width: 1px;
+    border-right-style: Solid;
+    border-right-color: buttonshadow;
+    border-left-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: buttonshadow;
+    border-bottom-style: Solid;    
+}
+
+.ssControlButton
+{
+    height: 9px;
+    width: 60px;    
+    white-space: nowrap; 
+    overflow: hidden;
+    padding: 0px 1px 0px 1px;    
+}
+
+.ssCellSelected
+{
+    height: 8px;    
+    border: solid 2px #000000;   
+    padding: 0px 0px 0px 0px;
+}
+
+.ssTextBox
+{
+    font-size: 9pt;
+    width: 58px;    
+    border: none 0px;
+}
+
+
+
+
+
+
+
+/* Toolkit Samples CSS */
+
+.demoarea {
+	padding:20px;
+
+}
+
+.demoarea p 
+{
+	padding:5px;
+}
+
+.demoheading {
+	padding-bottom:20px;
+	color:#5377A9;
+	font-family:Arial, Sans-Serif;
+	font-weight:bold;
+	font-size:1.5em;
+}
+
+.demobottom {
+	height:8px;
+	
+}
+
+
+.heading {
+	padding: 1em 0 1em 0;
+	color:#5377A9;
+	font-family:Arial, Sans-Serif;
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+.subheading{
+	padding:.8em 0 0.5em 0;
+	color:#0F2543;
+	font-weight:bold;
+	font-family:Arial, Sans-Serif;
+	font-size:1.1em;
+}
+
+
+.collapsePanel {
+	
+	background-color:white;
+	overflow:hidden;
+}
+
+.collapsePanelHeader{
+	width:100%;
+	height:30px;
+
+	background-repeat:repeat-x;
+	color:#FFF;
+	font-weight:bold;
+}
+
+#master_content .collapsePanelHeader a {color:#FFF;}
+#master_content .collapsePanelHeader a:hover {text-decoration:none;background:none;}
+
+/*Popup Control*/
+.popupControl{
+	background-color:White;
+	position:absolute;
+	visibility:hidden;
+}
+
+
+
+.ContextMenuPanel 
+{
+	border: 1px solid #868686;
+	z-index: 1000;
+	
+	cursor: default;
+	padding: 1px 1px 0px 1px;
+	font-size: 11px;
+}
+
+.ContextMenuBreak
+{
+	margin:1px 1px 1px 32px;
+	padding:0;
+	height:1px;
+	overflow:hidden;
+	display:block;
+	border-top: 1px solid #C5C5C5;	
+}
+
+a.ContextMenuItem
+{
+	margin: 1px 0 1px 0;
+	display: block;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;	
+	padding: 4px 19px 4px 33px;
+	white-space: nowrap;
+}
+
+a.ContextMenuItem-Selected
+{
+	font-weight: bold;
+}
+
+a.ContextMenuItem:hover
+{
+	background-color: #FFE6A0;
+	color: black;
+	border: 1px solid #D2B47A;
+	padding: 3px 18px 3px 32px;
+}

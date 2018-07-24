@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Users>
+  <User Name="common" Password="directv">
+    <Countries>
+       <Country id="12"/>
+    </Countries>
+
+    <BgSets>
+    </BgSets>  
+  </User>
+
+  <User Name="all" Password="directv">
+    <Countries>
+    	<Country id="1"/>
+    	<Country id="2"/>
+    	<Country id="3"/>
+    	<Country id="5"/>
+    	<Country id="6"/>
+    	<Country id="7"/>
+    	<Country id="8"/>
+	<Country id="9"/>
+    	<Country id="11"/>
+    </Countries>
+
+    <BgSets>
+      <BgSet id="1"/>
+      <BgSet id="2"/>
+      <BgSet id="3"/>
+      <BgSet id="4"/>
+
+      <BgSet id="5"/>
+      <BgSet id="6"/>
+      <BgSet id="7"/>
+      <BgSet id="8"/>
+    </BgSets>  
+  </User>
+
+
+
+  <User Name="arg" Password="directv">
+    <Countries>
+    	<Country id="1"/>
+    </Countries>
+
+    <BgSets>
+      <BgSet id="1"/>
+    </BgSets>  
+  </User>
+
+  <User Name="arg2" Password="directv">
+    <Countries>
+    	<Country id="1"/>
+    </Countries>
+
+    <BgSets>      
+    </BgSets>  
+  </User>
+
+  
+  <User Name="chi" Password="directv">
+    <Countries> 
+    	<Country id="2"/>
+    </Countries>
+
+    <BgSets>
+        <BgSet id="5"/>
+    </BgSets>  
+  </User>  
+
+  <User Name="col" Password="directv">
+    <Countries>
+    	<Country id="3"/>
+    </Countries>
+
+    <BgSets> 
+        <BgSet id="4"/>     
+    </BgSets>  
+  </User>
+
+  <User Name="ecu" Password="directv">
+    <Countries>
+    	<Country id="5"/>
+    </Countries>
+
+    <BgSets>
+        <BgSet id="6"/>
+    </BgSets>  
+  </User>
+
+  <User Name="per" Password="directv">
+    <Countries>
+    	<Country id="6"/>
+    </Countries>
+
+    <BgSets>
+       <BgSet id="7"/>
+    </BgSets>  
+  </User>
+
+  <User Name="uru" Password="directv">
+    <Countries>
+    	<Country id="7"/>
+    </Countries>
+
+    <BgSets>
+        <BgSet id="8"/>      
+    </BgSets>  
+  </User>
+
+  <User Name="ven" Password="directv">
+    <Countries>
+    	<Country id="8"/>
+    </Countries>
+
+    <BgSets>
+      <BgSet id="2"/>
+    </BgSets>  
+  </User>
+
+
+  <User Name="tt" Password="directv">
+    <Countries>
+    	<Country id="11"/>
+    </Countries>
+
+    <BgSets>
+      <BgSet id="3"/>
+    </BgSets>  
+  </User>
+
+  <User Name="pan" Password="directv">
+    <Countries>
+    	<Country id="2"/>
+        <Country id="3"/>
+        <Country id="5"/>
+        <Country id="6"/>
+        <Country id="7"/>
+    </Countries>
+
+    <BgSets>
+      <BgSet id="4"/>
+      <BgSet id="5"/>
+      <BgSet id="6"/>
+      <BgSet id="7"/>
+      <BgSet id="8"/>
+    </BgSets>  
+  </User>
+
+  
+</Users>  
