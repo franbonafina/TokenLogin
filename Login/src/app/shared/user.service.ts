@@ -4,6 +4,7 @@ import { Response } from "@angular/http";
 import { Observable } from 'rxjs';
 import 'rxjs/add/operator/map';
 import { User } from './user.model';
+import { observeOn } from 'rxjs/operators';
 
 @Injectable()
 export class UserService {
@@ -24,12 +25,12 @@ export class UserService {
 
   userAuthentication(userName, password) {
     var data = "username=" + userName + "&password=" + password + "&grant_type=password";
-    var reqHeader = new HttpHeaders({ 'Content-Type': 'application/x-www-urlencoded','No-Auth':'True' });
-    return this.http.post(this.rootUrl + '/token', data, { headers: reqHeader });
+      var reqHeader = new HttpHeaders({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'True'});
+      return this.http.post(this.rootUrl + '/token', data, { headers: reqHeader });
   }
 
   getUserClaims(){
-   return  this.http.get(this.rootUrl+'/api/GetUserClaims');
+      return this.http.get(this.rootUrl +'api/User/getUserClaim');
   }
 
 }

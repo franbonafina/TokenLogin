@@ -33,7 +33,7 @@ import { AuthInterceptor } from './auth/auth.interceptor';
     BrowserAnimationsModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [UserService,AuthGuard,
+  providers: [UserService,AuthGuard
     ,
     {
       provide : HTTP_INTERCEPTORS,
