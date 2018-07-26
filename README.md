@@ -25,5 +25,6 @@
 You have it running at [server](localhost:4200) 
 
 <br></br>
-## Possible Issue
-<SQL connection> U have sqlserve install in your machine .
+## Possible Issues
+<SQL connection> U need to create an isntance sqlserve in your machine name sqle.
+<CORB> Ask to different cors is an issue https://github.com/franbonafina/authLogin/issues/6 not working. It make angular login claim request not work .
